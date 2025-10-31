@@ -1,0 +1,8 @@
+module sbp.demo {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+
+    opens com.javarush to javafx.fxml;
+    exports com.javarush;
+}
